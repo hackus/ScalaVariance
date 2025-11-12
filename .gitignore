@@ -1,0 +1,39 @@
+# === Scala / SBT ===
+target/
+project/target/
+project/project/
+
+# === IntelliJ IDEA ===
+.idea/
+.bsp/
+*.iml
+out/
+
+# === VSCode ===
+.vscode/
+
+# === Metals / Bloop (Scala tools) ===
+.metals/
+.bloop/
+.scala-build/
+.scala/
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+
+# === Logs and temporary ===
+*.log
+*.tmp
+
+# === Gradle (if you use it) ===
+.gradle/
+build/
+
+# === Maven (if you use it) ===
+*.class
+dependency-reduced-pom.xml
+
+# === Coverage reports ===
+coverage/
+.coverage/
